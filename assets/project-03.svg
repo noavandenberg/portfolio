@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Placeholder">
+  <rect width="1000" height="1000" fill="#F3CBD3"/>
+  <path d="M500 190 C 690 190 810 310 810 500 C 810 690 690 810 500 810 C 310 810 190 690 190 500 C 190 310 310 190 500 190 Z" fill="#FDF9F6"/>
+  <path d="M500 190 C 690 190 810 310 810 500 L 500 500 Z" fill="#EBAFBE"/>
+  <circle cx="330" cy="640" r="105" fill="#8C2F4A" opacity=".8"/>
+  <path d="M120 780 C 300 640 380 840 560 720 C 700 630 780 740 900 680" stroke="#8C2F4A" stroke-width="4" fill="none" opacity=".45"/>
+  <g stroke="#8C2F4A" stroke-width="2" fill="none" opacity=".4">
+    <circle cx="500" cy="500" r="380"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#8C2F4A">
+    <text x="500" y="130" font-size="24" letter-spacing="7" text-anchor="middle" opacity=".8">03 — IMAGE PLACEHOLDER</text>
+    <text x="500" y="500" font-size="24" letter-spacing="5" text-anchor="middle" opacity=".9">REPLACE ME</text>
+    <text x="500" y="540" font-size="18" letter-spacing="2" text-anchor="middle" opacity=".6">assets/project-03.svg</text>
+  </g>
+</svg>
