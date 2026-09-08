@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Placeholder">
+  <rect width="1200" height="900" fill="#F3CBD3"/>
+  <circle cx="470" cy="430" r="300" fill="#FDF9F6"/>
+  <path d="M470 130 A300 300 0 0 1 470 730 Z" fill="#EBAFBE"/>
+  <circle cx="830" cy="300" r="130" fill="#8C2F4A" opacity=".85"/>
+  <path d="M60 760 C 300 560 520 900 780 700 C 940 580 1080 700 1160 640" stroke="#8C2F4A" stroke-width="4" fill="none" opacity=".5"/>
+  <g stroke="#8C2F4A" stroke-width="2" fill="none" opacity=".45">
+    <circle cx="470" cy="430" r="215"/>
+    <circle cx="470" cy="430" r="120"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#8C2F4A">
+    <text x="60" y="80" font-size="24" letter-spacing="7" opacity=".8">01 — IMAGE PLACEHOLDER</text>
+    <text x="470" y="440" font-size="22" letter-spacing="5" text-anchor="middle" opacity=".85">REPLACE ME</text>
+    <text x="470" y="478" font-size="17" letter-spacing="2" text-anchor="middle" opacity=".55">assets/project-01.svg</text>
+  </g>
+</svg>
