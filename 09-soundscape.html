@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soundscape — Noa van den Berg</title>
+<meta name="description" content="A generative piece that turns the noise of a street into something you can look at — live, in the browser, with nothing recorded.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor" id="cursor" aria-hidden="true">
+  <span class="cursor__label"></span>
+</div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<a class="skip-link" href="#case">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo" data-cursor="hide">Noa<span class="dot-accent">.</span></a>
+
+    <nav class="nav__links" aria-label="Main">
+      <a href="index.html#work" data-cursor="hide">Work</a>
+      <a href="index.html#about" data-cursor="hide">About</a>
+      <a href="index.html#contact" data-cursor="hide">Contact</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="menu" id="mobileMenu" hidden>
+  <nav class="menu__links" aria-label="Mobile">
+    <a href="index.html#work"><span>01</span> Work</a>
+    <a href="index.html#about"><span>02</span> About</a>
+    <a href="index.html#contact"><span>03</span> Contact</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="mailto:hello@noavandenberg.nl">hello@noavandenberg.nl</a>
+    <p>Alkmaar / NL</p>
+  </div>
+</div>
+
+<main>
+<article class="case" id="case">
+
+  <!-- ========== PROJECT HERO ========== -->
+  <section class="p-hero">
+    <div class="shapes" aria-hidden="true">
+      <span class="blob blob--a" data-float="0.04"></span>
+      <span class="blob blob--c" data-float="0.07"></span>
+      <svg class="star star--c" data-float="0.11" viewBox="0 0 24 24"><path d="M12 0c0 7 5 12 12 12-7 0-12 5-12 12 0-7-5-12-12-12 7 0 12-5 12-12z"/></svg>
+    </div>
+
+    <div class="container p-hero__inner">
+      <a href="index.html#work" class="back-link" data-cursor="hide"><span aria-hidden="true">←</span> All work</a>
+
+      <p class="label" data-reveal><span class="pulse"></span> Project 09 — 2026 · Creative Coding · Generative</p>
+
+      <h1 class="p-title">
+      <span class="line" data-reveal><span>Soundscape</span></span>
+      </h1>
+
+      <p class="p-lead" data-reveal data-delay="160">A generative piece that turns the noise of a street into something you can look at — live, in the browser, with nothing recorded.</p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <!-- ========== META ========== -->
+    <div class="p-meta" data-reveal>
+      <div><span class="label">Role</span><p>Concept &amp; code</p></div>
+      <div><span class="label">Timeline</span><p>5 weeks · solo</p></div>
+      <div><span class="label">Discipline</span><p>Creative coding</p></div>
+      <div><span class="label">Tools</span><p>JavaScript, Web Audio API, Canvas</p></div>
+    </div>
+
+    <!-- ========== COVER ==========
+         Vervang de src door je eigen afbeelding in /assets -->
+    <figure class="p-cover" data-reveal data-delay="80">
+      <img src="assets/hero-09.svg" alt="Hero image placeholder for the Soundscape project">
+    </figure>
+
+    <!-- ========== TEKST ========== -->
+    <div class="p-body">
+      <section class="p-block" data-reveal>
+        <h2>The brief</h2>
+        <div><p>I wanted to learn the Web Audio API properly, and the fastest way to learn something is to promise a showcase you will exhibit it.</p></div>
+      </section>
+
+      <section class="p-block" data-reveal>
+        <h2>My approach</h2>
+        <div><p>Microphone input drives a particle field: amplitude moves the mass, frequency picks the palette. Most of the work went into restraint — the first version reacted to everything and read as static.</p></div>
+      </section>
+
+      <section class="p-block" data-reveal>
+        <h2>The result</h2>
+        <div><p>A calm, slow visual that responds to a room rather than to every sound in it. Runs at 60fps on a four-year-old laptop.</p></div>
+      </section>
+
+      <section class="p-block" data-reveal>
+        <h2>Deliverables</h2>
+        <div>
+          <ul>
+            <li class="pill pill--ghost">Concept</li>
+            <li class="pill pill--ghost">Audio analysis</li>
+            <li class="pill pill--ghost">Canvas renderer</li>
+            <li class="pill pill--ghost">Exhibition build</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- ========== GALLERY ========== -->
+    <div class="p-gallery">
+      <figure class="p-shot p-shot--a" data-reveal>
+        <span class="p-shot__frame">
+          <img src="assets/shot-09-a.svg" alt="Image placeholder: Live output in a quiet room" loading="lazy">
+        </span>
+        <figcaption>Live output in a quiet room</figcaption>
+      </figure>
+
+      <figure class="p-shot p-shot--b" data-reveal data-delay="80">
+        <span class="p-shot__frame">
+          <img src="assets/shot-09-b.svg" alt="Image placeholder: Palette mapping study" loading="lazy">
+        </span>
+        <figcaption>Palette mapping study</figcaption>
+      </figure>
+    </div>
+
+  </div>
+
+  <!-- ========== VOLGEND PROJECT ========== -->
+  <section class="p-next">
+    <div class="p-next__blob" aria-hidden="true"></div>
+    <div class="container p-next__inner">
+      <p class="label" data-reveal><span class="pulse"></span> Next project — 10</p>
+      <a href="10-studio-noa.html" data-cursor="view" data-reveal data-delay="80">Studio Noa <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+</article>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <p class="footer__name">Noa van den Berg</p>
+      <p class="label">CMD Designer</p>
+    </div>
+    <p class="footer__note">made with curiosity &amp; too much coffee</p>
+    <p class="footer__copy">© <span id="year">2026</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
