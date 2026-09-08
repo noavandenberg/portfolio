@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Placeholder">
+  <rect width="1600" height="1000" fill="#FBE7E9"/>
+  <circle cx="608" cy="480" r="340" fill="#FDF9F6"/>
+  <path d="M608 140 A340 340 0 0 1 608 820 Z" fill="#EBAFBE"/>
+  <circle cx="1184" cy="330" r="160" fill="#8C2F4A" opacity=".85"/>
+  <path d="M64 840 C 416 620 704 980 1056 780 S 1440 740 1568 700" stroke="#8C2F4A" stroke-width="4" fill="none" opacity=".5"/>
+  <g stroke="#8C2F4A" stroke-width="2" fill="none" opacity=".4">
+    <circle cx="608" cy="480" r="240"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#8C2F4A">
+    <text x="800" y="85" font-size="28" letter-spacing="6" text-anchor="middle" opacity=".75">05 — IMAGE A</text>
+    <text x="800" y="540" font-size="28" letter-spacing="5" text-anchor="middle" opacity=".9">REPLACE ME</text>
+    <text x="800" y="582" font-size="21" letter-spacing="2" text-anchor="middle" opacity=".55">assets/shot-05-a.svg</text>
+  </g>
+</svg>

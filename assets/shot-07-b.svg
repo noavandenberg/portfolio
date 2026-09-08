@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" role="img" aria-label="Placeholder">
+  <rect width="1200" height="1000" fill="#FBE7E9"/>
+  <g fill="#FDF9F6">
+    <rect x="84.00000000000001" y="160" width="456" height="300" rx="150"/>
+    <rect x="660" y="300" width="456" height="300" rx="150"/>
+    <rect x="84.00000000000001" y="580" width="456" height="260" rx="130"/>
+  </g>
+  <circle cx="888" cy="740" r="130" fill="#8C2F4A" opacity=".8"/>
+  <g stroke="#8C2F4A" stroke-width="2" fill="none" opacity=".4">
+    <rect x="660" y="300" width="456" height="300" rx="150"/>
+    <path d="M84.00000000000001 500 H 1116"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#8C2F4A">
+    <text x="600" y="85" font-size="28" letter-spacing="6" text-anchor="middle" opacity=".75">07 — IMAGE B</text>
+    <text x="600" y="540" font-size="28" letter-spacing="5" text-anchor="middle" opacity=".9">REPLACE ME</text>
+    <text x="600" y="582" font-size="21" letter-spacing="2" text-anchor="middle" opacity=".55">assets/shot-07-b.svg</text>
+  </g>
+</svg>

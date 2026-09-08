@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Placeholder">
+  <rect width="1600" height="1000" fill="#FBE7E9"/>
+  <path d="M800 120 C 1248 120 1440 300 1440 500 C 1440 740 1152 880 800 880 C 416 880 160 720 160 500 C 160 280 416 120 800 120 Z" fill="#FDF9F6"/>
+  <path d="M800 120 C 1248 120 1440 300 1440 500 L 800 500 Z" fill="#EBAFBE"/>
+  <circle cx="512" cy="660" r="110" fill="#8C2F4A" opacity=".8"/>
+  <path d="M128 820 C 448.00000000000006 680 608 900 927.9999999999999 760 S 1344 720 1504 700" stroke="#8C2F4A" stroke-width="4" fill="none" opacity=".45"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#8C2F4A">
+    <text x="800" y="85" font-size="28" letter-spacing="6" text-anchor="middle" opacity=".75">07 — IMAGE A</text>
+    <text x="800" y="540" font-size="28" letter-spacing="5" text-anchor="middle" opacity=".9">REPLACE ME</text>
+    <text x="800" y="582" font-size="21" letter-spacing="2" text-anchor="middle" opacity=".55">assets/shot-07-a.svg</text>
+  </g>
+</svg>
